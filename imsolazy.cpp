@@ -5,6 +5,8 @@ typedef long long ll;
 typedef long double ld;
 
 typedef pair<int, int> pi;
+typedef pair<ll, int> pli;
+typedef pair<int, ll> pil;
 typedef pair<ll,ll> pl;
 typedef pair<ld,ld> pd;
 
