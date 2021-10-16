@@ -37,6 +37,8 @@ void solve() {
 int main() {
 	ios_base::sync_with_stdio(false);
 	cin.tie(NULL); cout.tie(NULL);
+//	freopen("name.inp", "r", stdin);
+//	freopen("name.out", "w", stdout);
 	solve();
 	return 0;
 }
