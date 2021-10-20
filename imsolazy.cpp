@@ -11,10 +11,13 @@ typedef pair<ll,ll> pl;
 typedef pair<ld,ld> pd;
 
 typedef vector<int> vi;
+typedef vector<bool> vb;
 typedef vector<ld> vd;
 typedef vector<ll> vl;
 typedef vector<pi> vpi;
 typedef vector<pl> vpl;
+typedef vector<pli> vli;
+typedef vector<pil> vil;
 
 #define mp make_pair
 #define pb push_back
@@ -22,7 +25,6 @@ typedef vector<pl> vpl;
 #define s second
 #define lb lower_bound
 #define ub upper_bound
-
 #define sz(x) (int)x.size()
 #define all(x) begin(x), end(x)
 
