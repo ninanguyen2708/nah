@@ -1,6 +1,7 @@
 /* Other name: Euclidean
  * Des: return gcd(a, b); ax + by = c: combine this one and check c % gcd(a, b) != 0 -> no sol, 
  * otherwise return x_res = x * (c / g), y_res = y * (c / g)
+ * find all sol of ax + by = c in range: https://ideone.com/DDmLxr (range: all posive num)
  */
 ll euclid(ll a, ll b) {
 	for (;b;swap(a,b)) {
