@@ -19,6 +19,7 @@ typedef vector<pl> vpl;
 typedef vector<pli> vli;
 typedef vector<pil> vil;
 
+#define BIT(x, i) (((x) >> (i)) & 1)
 #define mp make_pair
 #define pb push_back
 #define f first
@@ -28,7 +29,7 @@ typedef vector<pil> vil;
 #define sz(x) (int)x.size()
 #define all(x) begin(x), end(x)
 
-const int MOD = 1000000007; // 998244353
+const int MOD = 998244353; // 1000000007
 const ll INF = 1e18;
 const int oo = 1000000007;
 const int MX = 100001;
