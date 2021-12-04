@@ -20,6 +20,7 @@ typedef vector<pli> vli;
 typedef vector<pil> vil;
 
 #define BIT(x, i) (((x) >> (i)) & 1)
+#define MASK(i) (1LL << (i))
 #define mp make_pair
 #define pb push_back
 #define f first
