@@ -29,7 +29,9 @@ typedef vector<pil> vil;
 #define ub upper_bound
 #define sz(x) (int)x.size()
 #define all(x) begin(x), end(x)
+#define rsz resize
 
+const int dx[]{1, 0, -1, 0}, dy[]{0, 1, 0, -1};
 const int MOD = 998244353; // 1000000007
 const ll INF = 1e18;
 const int oo = 1000000007;
