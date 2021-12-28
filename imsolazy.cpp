@@ -28,6 +28,7 @@ typedef vector<pil> vil;
 #define TRACE(x) cout << #x << ": "
 #define BIT(x, i) (((x) >> (i)) & 1)
 #define MASK(i) (1LL << (i))
+#define mem(i, a) memset(i, a, sizeof i)
 #define mp make_pair
 #define pb push_back
 #define f first
