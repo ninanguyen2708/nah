@@ -24,6 +24,7 @@ typedef vector<pil> vil;
 
 #define FOR(i, a, b) for (int i = (a); i < (b); ++i)
 #define REP(i, n) FOR (i, 0, (n))
+#define BAC(i, a, b) for (int i = (a - 1); i >= (b); --i)
 #define TRACE(x) cout << #x << ": "
 #define BIT(x, i) (((x) >> (i)) & 1)
 #define MASK(i) (1LL << (i))
@@ -41,7 +42,7 @@ const int dx[]{1, 0, -1, 0}, dy[]{0, 1, 0, -1};
 const int MOD = 998244353; // 1000000007
 const ll INF = 1e18;
 const int oo = 1000000007;
-const int MX = 100001;
+const int MX = 2001;
 const ld PI = 4 * atan((ld)1);
 
 void solve() {
