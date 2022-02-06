@@ -39,13 +39,17 @@ typedef vector<pil> vil;
 #define sz(x) (int)x.size()
 #define all(x) begin(x), end(x)
 #define rsz resize
+#define tcT template<class T
 
 const int dx[]{1, 0, -1, 0}, dy[]{0, 1, 0, -1};
 const int MOD = 998244353; // 1000000007
 const ll INF = 1e18;
 const int oo = 1000000007;
-const int MX = 100001;
+const int MX = 200001;
 const ld PI = 4 * atan((ld)1);
+
+tcT> bool maximize(T& a, const T& b) { return a < b ? a = b, 1 : 0; }
+tcT> bool minimize(T& a, const T& b) { return a > b ? a = b, 1 : 0; }
 
 void solve() {
 	
