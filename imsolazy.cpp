@@ -50,6 +50,13 @@ const ld PI = 4 * atan((ld)1);
 
 tcT> bool maximize(T& a, const T& b) { return a < b ? a = b, 1 : 0; }
 tcT> bool minimize(T& a, const T& b) { return a > b ? a = b, 1 : 0; }
+tcT> pw(T a, T b, T m) {
+	T res = 1; a = a % m;
+	while (b > 0) {
+		if (b&1) res = (res * a) % m;
+		a = (a * a) % m; b >>= 1; 
+	} return res;
+}
 
 void solve() {
 	
