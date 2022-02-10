@@ -30,6 +30,7 @@ typedef vector<pil> vil;
 #define MASK(i) (1LL << (i))
 #define mem(i, a) memset(i, a, sizeof i)
 #define el printf("\n")
+#define bs printf(" ")
 #define mp make_pair
 #define pb push_back
 #define f first
