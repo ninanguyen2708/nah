@@ -1,3 +1,6 @@
+/* Des: khớp cầu
+ * Accuracy: high
+ */
 struct Edge {
 	int u, v;
 	bool used; // đánh dấu cạnh đã thăm
