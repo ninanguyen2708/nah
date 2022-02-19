@@ -54,6 +54,8 @@ tcT> T pw(T a, T b, T m) {
 	return res; }
 tcT> bool maximize(T& a, const T& b) { return a < b ? a = b, 1 : 0; }
 tcT> bool minimize(T& a, const T& b) { return a > b ? a = b, 1 : 0; }
+tcT> void add(T& a, T b) { a += b; if (a >= MOD) a -= MOD; }
+tcT> void sub(T& a, T b) { a -= b; if (a < 0) a += MOD; }
 
 void solve() {
 	
