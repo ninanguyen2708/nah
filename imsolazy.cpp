@@ -31,6 +31,8 @@ typedef vector<pil> vil;
 #define mem(i, a) memset(i, a, sizeof i)
 #define el printf("\n")
 #define bs printf(" ")
+#define els cout << endl
+#define bss cout << ' '
 #define mp make_pair
 #define pb push_back
 #define f first
