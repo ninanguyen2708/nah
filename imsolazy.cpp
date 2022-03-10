@@ -22,9 +22,9 @@ typedef vector<pl> vpl;
 typedef vector<pli> vli;
 typedef vector<pil> vil;
 
-#define FOR(i, a, b) for (ll i = (a); i < (b); ++i)
+#define FOR(i, a, b) for (int i = (a); i < (b); ++i)
 #define REP(i, n) FOR (i, 0, (n))
-#define BAC(i, a, b) for (ll i = (a - 1); i >= (b); --i)
+#define BAC(i, a, b) for (int i = (a - 1); i >= (b); --i)
 #define TRACE(x) cout << #x << ": "
 #define BIT(x, i) (((x) >> (i)) & 1)
 #define MASK(i) (1LL << (i))
