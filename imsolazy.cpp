@@ -62,7 +62,11 @@ tcT> void add(T& a, T b) { if (a += b >= MOD) a -= MOD; }
 tcT> void sub(T& a, T b) { if (a -= b < 0) a += MOD; }
 
 void solve() {
+//read
+
+//process
 	
+//print ans
 }
 
 int main() {
